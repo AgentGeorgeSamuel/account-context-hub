@@ -1,0 +1,16 @@
+# Keep local, private and generated material out of publication.
+.env
+.env.*
+*.log
+*.zip
+*.har
+*.db
+*.sqlite*
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+private/
+backups/
+evidence/
+screenshots/
