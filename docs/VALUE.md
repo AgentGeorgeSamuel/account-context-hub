@@ -2,7 +2,7 @@
 
 ## From fragmented history to usable account memory
 
-An interaction summary is only useful when it reaches the right account, retains its source and can be found at the moment of a decision. Account Context Hub combines those responsibilities rather than treating summarization as the whole solution.
+An interaction summary is only useful when it reaches the right account, retains its source and can be found at the moment of a decision. Decision DNA combines those responsibilities rather than treating summarization as the whole solution.
 
 ### Account preparation
 

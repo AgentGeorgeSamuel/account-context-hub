@@ -46,7 +46,7 @@ const nodes = {
   },
   agent: {
     index: "04 / RETRIEVE",
-    title: "DecisionDNA",
+    title: "Decision DNA",
     description:
       "An on-demand Copilot Studio experience for asking grounded questions about account context.",
     path: "Account360, PlayFinder, or PortfolioScan → retrieved records → source-cited answer → account team.",
@@ -215,7 +215,7 @@ const flows = [
     short: "Agent Query",
     kind: "RETRIEVE",
     purpose:
-      "Answer account questions with source-cited context through DecisionDNA.",
+      "Answer account questions with source-cited context through Decision DNA.",
     trigger: "On-demand from Copilot Studio.",
     inputs:
       "A question, account scope, query mode, and accessible CRM records.",
@@ -330,7 +330,7 @@ const queryModes = {
 };
 let selectedMode = "Account360";
 const queryExplorer = document.getElementById("query-explorer");
-queryExplorer.innerHTML = `<div class="query-shell"><div class="query-toolbar"><span class="query-brand">DecisionDNA <span>EXPLORER</span></span><span class="offline-label"><span class="status-dot"></span>OFFLINE ILLUSTRATION</span></div><div class="query-selector" role="group" aria-label="Query mode">${Object.entries(
+queryExplorer.innerHTML = `<div class="query-shell"><div class="query-toolbar"><span class="query-brand">Decision DNA <span>EXPLORER</span></span><span class="offline-label"><span class="status-dot"></span>OFFLINE ILLUSTRATION</span></div><div class="query-selector" role="group" aria-label="Query mode">${Object.entries(
   queryModes,
 )
   .map(

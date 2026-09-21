@@ -1,9 +1,9 @@
-# Account Context Hub
+# Decision DNA
 ### Customer conversations → connected context → grounded decisions
 
-**An interactive architecture and project-value showcase for DecisionDNA.**
+**An interactive architecture and project-value showcase for Decision DNA.**
 
-Account Context Hub brings account-relevant email and Teams conversations into a shared CRM context. It turns fragmented interaction history into source-linked insights, account briefs and evidence-grounded answers for account teams.
+Decision DNA brings account-relevant email and Teams conversations into a shared CRM context. It turns fragmented interaction history into source-linked insights, account briefs and evidence-grounded answers for account teams.
 
 > **Presentation only.** This repository contains a static educational website and conceptual documentation. It is not the solution implementation, a deployable Power Platform package, or a live tenant-connected assistant. All on-page examples are fictional and illustrative.
 
@@ -19,7 +19,7 @@ Visit **[the interactive showcase](https://agentgeorgesamuel.github.io/account-c
 
 ## Why this project matters
 
-Customer decisions are rarely captured in one place. The technical discussion may be in email, objections in a meeting, next steps in a chat, and opportunity state in CRM. Account Context Hub connects those fragments without treating AI interpretation as business fact.
+Customer decisions are rarely captured in one place. The technical discussion may be in email, objections in a meeting, next steps in a chat, and opportunity state in CRM. Decision DNA connects those fragments without treating AI interpretation as business fact.
 
 | Need | Project contribution |
 |---|---|
@@ -43,7 +43,7 @@ flowchart LR
     P --> D[(Dataverse / CRM context)]
     D --> B[Account brief rebuild]
     B --> D
-    U[Account team] --> C[DecisionDNA / Copilot Studio]
+    U[Account team] --> C[Decision DNA / Copilot Studio]
     C --> Q[Agent query]
     D --> Q
     Q --> C
@@ -59,7 +59,7 @@ flowchart LR
 | ACX – Ingest Email | Resolve account/contact, extract evidence, create an insight and note without replay duplicates | Scheduled polling |
 | ACX – Ingest Teams Meetings | Process eligible messages/available meeting content with privacy gates | Scheduled polling |
 | ACX – Rebuild Account Brief | Aggregate interactions into a bounded, source-aware account brief | Scheduled or manual |
-| ACX – Agent Query | Retrieve account, winning-play or portfolio context for DecisionDNA | On-demand agent tool |
+| ACX – Agent Query | Retrieve account, winning-play or portfolio context for Decision DNA | On-demand agent tool |
 
 Flow descriptions are deliberately **conceptual**: no exported definitions, connector bindings, expressions, prompt source, credentials or deployment instructions are included.
 

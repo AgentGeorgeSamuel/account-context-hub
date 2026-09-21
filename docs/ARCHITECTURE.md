@@ -2,7 +2,7 @@
 
 ## Design intent
 
-Create a persistent, source-linked account memory from interactions that would otherwise remain spread across email, chats and CRM. DecisionDNA is the conversational access layer, not a replacement for the underlying evidence or the CRM opportunity state.
+Create a persistent, source-linked account memory from interactions that would otherwise remain spread across email, chats and CRM. Decision DNA is the conversational access layer, not a replacement for the underlying evidence or the CRM opportunity state.
 
 ## Layers
 
@@ -12,7 +12,7 @@ Create a persistent, source-linked account memory from interactions that would o
 | Orchestration | Power Automate ingests sources, rebuilds briefs and answers agent tool requests | Scheduled ingestion is not instantaneous |
 | Extraction | AI Builder prompts derive summary, rationale, actions and supported signals | Source text is evidence, not instructions; inference needs review |
 | Context store | Dataverse relationships and source-bearing timeline notes | Correct account/contact linkage precedes persistence |
-| Experience | Dynamics CRM account views and Copilot Studio DecisionDNA | Answers should disclose uncertainty and cite evidence |
+| Experience | Dynamics CRM account views and Copilot Studio Decision DNA | Answers should disclose uncertainty and cite evidence |
 
 ## Logical data model
 
@@ -36,7 +36,7 @@ This is a conceptual model, not a schema export. Names and relationships describ
 
 ## Read path
 
-1. An account team asks DecisionDNA for an account view, recorded winning plays or portfolio risks.
+1. An account team asks Decision DNA for an account view, recorded winning plays or portfolio risks.
 2. The agent selects the query capability and supplies relevant inputs.
 3. Query logic resolves the account conservatively; ambiguous matches require clarification.
 4. Relevant CRM context and opportunity state are returned with evidence references.

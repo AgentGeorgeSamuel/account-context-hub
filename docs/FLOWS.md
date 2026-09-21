@@ -43,7 +43,7 @@ These descriptions explain behavior without exposing implementation. They are no
 
 ## 4. ACX – Agent Query
 
-**Purpose:** provide DecisionDNA with structured, source-aware retrieval from CRM.
+**Purpose:** provide Decision DNA with structured, source-aware retrieval from CRM.
 
 - **Trigger:** on-demand request from a Copilot Studio tool.
 - **Inputs:** query mode plus relevant account/search context; truly optional inputs should not create unnecessary questions.

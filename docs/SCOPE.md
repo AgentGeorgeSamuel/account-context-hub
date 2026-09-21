@@ -8,7 +8,7 @@
 - Dataverse conversation context and timeline notes.
 - Source-based replay handling and missing-note reconciliation.
 - Scheduled/manual account-brief generation with bounded evidence.
-- DecisionDNA query modes: Account360, PlayFinder and PortfolioScan.
+- Decision DNA query modes: Account360, PlayFinder and PortfolioScan.
 - Explicit source references, ambiguity handling and opportunity-state distinctions.
 
 ## Included in this public showcase
